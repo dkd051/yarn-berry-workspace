@@ -1,10 +1,6 @@
 {
-  "name": "yarn-berry-workspace",
+  "name": "@koo/lib",
   "packageManager": "yarn@4.0.0",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "devDependencies": {
     "typescript": "^5.2.2"
   }
