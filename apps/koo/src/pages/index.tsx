@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import { sayHello } from '@koo/lib'
+import { Button } from '@koo/ui'; // 추가
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -26,6 +27,9 @@ export default function Home() {
             의존성 테스트&nbsp;
             <code className={styles.code}>{sayHello()}</code>
           </p>
+
+          {/* 추가 */}
+          <Button>Hello From @wanted/ui</Button>
 
 
           <div>

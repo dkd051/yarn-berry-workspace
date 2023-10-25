@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@koo/lib": "workspace:^",
+    "@koo/ui": "workspace:^",
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18"

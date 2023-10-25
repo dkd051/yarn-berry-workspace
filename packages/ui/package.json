@@ -1,0 +1,13 @@
+{
+  "name": "@koo/ui",
+  "packageManager": "yarn@4.0.0",
+  "main": "src/index.ts",
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "@types/react": "^18.2.31",
+    "@types/react-dom": "^18.2.14",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
